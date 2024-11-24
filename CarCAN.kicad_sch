@@ -1398,6 +1398,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 120.65) (xy 87.63 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb2178b-f2a8-4d09-883c-e0abbe50117b")
+	)
+	(wire
+		(pts
 			(xy 149.86 84.455) (xy 139.7 84.455)
 		)
 		(stroke
@@ -1415,6 +1425,46 @@
 			(type default)
 		)
 		(uuid "3e393692-4af0-456b-9b2c-d6f31f316b56")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 78.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3407c0-59e4-412f-8071-edd518498f62")
+	)
+	(wire
+		(pts
+			(xy 83.82 118.11) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5931f0b7-fd0e-4858-8d00-410c1e864ace")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 80.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743cc9ba-964c-493c-ba3c-1f437208907a")
+	)
+	(wire
+		(pts
+			(xy 87.63 118.11) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a592f8-ee40-446b-9967-1192a84fcaf0")
 	)
 	(wire
 		(pts
@@ -1438,6 +1488,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 111.76) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8402b20a-a5fa-461b-9f2c-6aeb481b99b0")
+	)
+	(wire
+		(pts
 			(xy 117.475 72.39) (xy 117.475 82.55)
 		)
 		(stroke
@@ -1455,6 +1515,16 @@
 			(type default)
 		)
 		(uuid "9656a283-9808-40e3-9da8-e6392f48fd2f")
+	)
+	(wire
+		(pts
+			(xy 102.87 148.59) (xy 102.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab420177-4ea3-4912-a8c7-3ac66ee2137c")
 	)
 	(wire
 		(pts
@@ -1548,6 +1618,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 113.03) (xy 87.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b56a8d-3158-4930-be64-38466e5be91a")
+	)
+	(wire
+		(pts
 			(xy 113.03 72.39) (xy 117.475 72.39)
 		)
 		(stroke
@@ -1577,6 +1657,72 @@
 			(justify right bottom)
 		)
 		(uuid "e997b2c2-eddc-4bd4-9203-d14143255a8c")
+	)
+	(global_label "CAN_SPI_SCLK"
+		(shape input)
+		(at 81.28 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a67e198-f6c7-4ced-8632-c32751f89d41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.8086 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_SPI_SO"
+		(shape output)
+		(at 78.74 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bc459fd-65fb-4bf0-b27e-f582f8d56258")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5062 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_SPI_SI"
+		(shape input)
+		(at 78.74 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4f3c530-88e1-4f41-9702-f1feed86ba7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.2319 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "CarCAN_H"
 		(shape input)
@@ -1850,6 +1996,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72670f05-6818-4aa6-a2b6-7bd4f2caaf79")
+		(property "Reference" "#PWR032"
+			(at 102.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00fe26a3-b8ad-48cd-922a-7a94129920d5")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 124.46 82.55 0)
 		(unit 1)
@@ -2072,7 +2283,7 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:MCP2515-xST")
-		(at 101.6 128.27 0)
+		(at 102.87 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2081,7 +2292,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6494fbb-e5ac-4680-b642-f6b1e82c9c41")
 		(property "Reference" "U14"
-			(at 103.7941 105.41 0)
+			(at 105.0641 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2301,7 @@
 			)
 		)
 		(property "Value" "MCP2515-xST"
-			(at 103.7941 107.95 0)
+			(at 105.0641 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2310,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 101.6 151.13 0)
+			(at 102.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +2320,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf"
-			(at 104.14 148.59 0)
+			(at 105.41 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2329,7 @@
 			)
 		)
 		(property "Description" "Stand-Alone CAN Controller with SPI Interface, TSSOP-20"
-			(at 101.6 128.27 0)
+			(at 102.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,6 +2401,72 @@
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
 					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 83.82 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d025962f-ca49-44b1-8816-bee7e3e0a7f8")
+		(property "Reference" "#PWR091"
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b6a454-d899-4a91-bd70-c595a6626361")
+		)
+		(instances
+			(project ""
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/bb44eb34-b37d-4f19-ab49-17b4958492c8"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
