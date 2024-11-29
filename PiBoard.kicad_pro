@@ -391,15 +391,7 @@
     ],
     [
       "353ee88d-a044-4c9d-80a8-948975426026",
-      "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
-    ],
-    [
-      "47737f70-426b-4f40-8815-4d31821e0d66",
-      "CM4_HighSpeed"
-    ],
-    [
-      "e0e77f0d-1409-4cb0-8279-c8e5235ecfa5",
-      "PSUs"
+      "CM4_GPIO"
     ],
     [
       "576572c3-1ae4-4f9d-a2fe-756d060003c8",
@@ -412,6 +404,14 @@
     [
       "bb44eb34-b37d-4f19-ab49-17b4958492c8",
       "CarCAN"
+    ],
+    [
+      "0c1fd794-8ba7-4f58-ad3e-1ee234c84a43",
+      "PWR_Distribution"
+    ],
+    [
+      "2dec5fd6-8756-425d-9ae9-2f1c2fc4e6c1",
+      "HDMI and High Speed"
     ]
   ],
   "text_variables": {}
