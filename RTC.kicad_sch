@@ -1370,7 +1370,7 @@
 				)
 			)
 		)
-		(symbol "Timer_RTC:PCF8563T"
+		(symbol "PCF8563T_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1401,7 +1401,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PCF8563.pdf"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8563.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1437,7 +1437,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PCF8563T_0_1"
+			(symbol "PCF8563T_1_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -1450,7 +1450,7 @@
 					)
 				)
 			)
-			(symbol "PCF8563T_1_1"
+			(symbol "PCF8563T_1_1_1"
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -1588,366 +1588,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2150,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 38.1) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342bedbb-027e-476e-b6bc-626866c30a20")
+	)
+	(wire
+		(pts
 			(xy 187.96 57.15) (xy 187.96 53.34)
 		)
 		(stroke
@@ -2238,6 +1888,16 @@
 		)
 		(uuid "513e01ee-47f3-46b8-95c5-8498f10de661")
 	)
+	(wire
+		(pts
+			(xy 90.17 123.19) (xy 90.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608b2015-1a81-480a-a803-a576adb083f9")
+	)
 	(polyline
 		(pts
 			(xy 193.04 102.87) (xy 193.04 153.67)
@@ -2247,16 +1907,6 @@
 			(type dash)
 		)
 		(uuid "6e307891-c3f4-4e88-8ae3-67e08853648d")
-	)
-	(wire
-		(pts
-			(xy 163.83 128.27) (xy 163.83 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "716ac56f-fb5e-438e-9975-3446f9df6792")
 	)
 	(polyline
 		(pts
@@ -2327,6 +1977,16 @@
 			(type default)
 		)
 		(uuid "adc09a2d-a1cc-44cc-99e6-10ba7d97899f")
+	)
+	(wire
+		(pts
+			(xy 162.56 39.37) (xy 162.56 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6307744-537f-41eb-8ce4-ff94245eb4ab")
 	)
 	(wire
 		(pts
@@ -2440,16 +2100,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 132.08) (xy 90.17 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de25bc30-d9b2-4797-83e2-30a168a27653")
-	)
-	(wire
-		(pts
 			(xy 58.42 50.8) (xy 58.42 48.26)
 		)
 		(stroke
@@ -2460,16 +2110,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 123.19) (xy 137.16 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debf200f-c9b4-4907-aca2-771393dbe56a")
-	)
-	(wire
-		(pts
 			(xy 82.55 63.5) (xy 82.55 66.04)
 		)
 		(stroke
@@ -2477,16 +2117,6 @@
 			(type solid)
 		)
 		(uuid "e0a7341a-0883-4210-9926-8dce425be3d2")
-	)
-	(wire
-		(pts
-			(xy 40.64 41.91) (xy 40.64 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1fe94eb-6e11-4aec-adfe-bfff7e14cf58")
 	)
 	(wire
 		(pts
@@ -2540,13 +2170,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 41.91) (xy 162.56 44.45)
+			(xy 137.16 119.38) (xy 137.16 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f49481cb-63c0-42c0-8b7b-5294ecf141d2")
+		(uuid "f58a2af5-b49b-4fee-9225-b2ae9ac4d1b3")
 	)
 	(wire
 		(pts
@@ -2699,6 +2329,18 @@
 		)
 		(uuid "a96fe93f-dc22-47a7-a738-82644d178437")
 	)
+	(hierarchical_label "+5V_PWR"
+		(shape input)
+		(at 162.56 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0621dd73-6240-422f-81d0-83d147e61b37")
+	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 104.14 129.54 180)
@@ -2723,6 +2365,18 @@
 		)
 		(uuid "557430c4-492d-4ff9-8a8d-3e2d50a2318e")
 	)
+	(hierarchical_label "+12V_PWR"
+		(shape input)
+		(at 163.83 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "601da928-3d49-4465-a05d-08111fa8f0ee")
+	)
 	(hierarchical_label "GLOBAL_EN"
 		(shape input)
 		(at 245.11 57.15 0)
@@ -2734,6 +2388,30 @@
 			(justify left)
 		)
 		(uuid "63ef37fb-3a1a-4045-9bec-eb93c65bda1f")
+	)
+	(hierarchical_label "+3.3V_PWR"
+		(shape input)
+		(at 90.17 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75d3e553-3c04-4b78-a27e-f7032d3dbb80")
+	)
+	(hierarchical_label "+3.3V_PWR"
+		(shape input)
+		(at 137.16 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a66b0009-8410-457d-abc9-289bc78fa81c")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
@@ -2747,6 +2425,18 @@
 		)
 		(uuid "be9f1058-173b-457d-bce2-b85ccd024377")
 	)
+	(hierarchical_label "+3.3V_PWR"
+		(shape input)
+		(at 40.64 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0190fc6-fb44-480c-ab9f-6b18badd4229")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 101.6 48.26 0)
@@ -2758,138 +2448,6 @@
 			(justify left)
 		)
 		(uuid "d0880ccc-1324-4e6d-976c-c9f78a2c4534")
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1047ab05-e579-4e82-8263-a9c36da98602")
-		(property "Reference" "#PWR011"
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 137.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d29365b-2810-4c4b-8ed5-fe1059e62582")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 90.17 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11c538b3-6b16-46e5-a49b-9b0026a8be42")
-		(property "Reference" "#PWR0100"
-			(at 90.17 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 90.17 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "874b5551-0055-459f-a3cb-972281f69f09")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3009,136 +2567,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Timer_RTC:PCF8563T")
-		(at 82.55 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "242b85aa-acfd-47b4-a1f6-3cf756c7f864")
-		(property "Reference" "U9"
-			(at 82.55 38.6334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PCF85063AT"
-			(at 82.55 40.9448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "2890042"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "NXP"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "PCF85063AT"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Real Time Clock (RTC) IC Clock/Calendar I²C, 2-Wire Serial 8-SOIC (0.154\", 3.90mm Width)"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00040bb4-b62f-4079-b0e9-e31d914a4998")
-		)
-		(pin "2"
-			(uuid "147a25db-3615-4020-87df-cbe5f91d5d3e")
-		)
-		(pin "3"
-			(uuid "ffe03429-bbfc-424f-bba1-035871c7b169")
-		)
-		(pin "4"
-			(uuid "b27f3a15-333e-41b3-8792-dbcaba6eff58")
-		)
-		(pin "5"
-			(uuid "278e5dd6-24d5-4f79-87e6-2f79cb614293")
-		)
-		(pin "6"
-			(uuid "5da4ea6a-d195-4bee-b8b5-a7d4149e4c28")
-		)
-		(pin "7"
-			(uuid "ca7758f4-5fc9-4be9-a037-5543dbcd4794")
-		)
-		(pin "8"
-			(uuid "9ae8d2ae-abb3-40c5-80aa-9542d76d1613")
-		)
-		(instances
-			(project "PiBoard"
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3811,17 +3239,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 163.83 128.27 0)
+		(lib_name "PCF8563T_1")
+		(lib_id "Timer_RTC:PCF8563T")
+		(at 82.55 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d3725c8-c2de-470a-bd2a-59f6fc916cf6")
-		(property "Reference" "#PWR099"
-			(at 163.83 132.08 0)
+		(uuid "6cb487b6-5bcb-4255-9c22-37546dcf5c94")
+		(property "Reference" "U1"
+			(at 84.7441 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCF8563T"
+			(at 84.7441 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,16 +3276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 163.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 128.27 0)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8563.pdf"
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,8 +3285,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 128.27 0)
+		(property "Description" "Realtime Clock/Calendar I2C Interface, SOIC-8"
+			(at 82.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,22 +3294,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "7"
+			(uuid "2b212acd-6fbc-458e-87ba-639b15917d1b")
+		)
+		(pin "2"
+			(uuid "e29a279b-8994-480a-8b6f-dfff52023b41")
+		)
+		(pin "3"
+			(uuid "4ae8c0b1-926f-48d1-8d18-fc16b4332f5f")
+		)
+		(pin "8"
+			(uuid "28d9e896-f6c3-4bc2-acf7-7e6708e7a792")
 		)
 		(pin "1"
-			(uuid "0a938b46-8aa0-4e7a-83e5-3d216da7d6f2")
+			(uuid "dfcfd22e-880f-48dd-9772-9c170b5bb411")
+		)
+		(pin "5"
+			(uuid "8f7423f1-58d1-433d-98b6-aa06f0bfd2b0")
+		)
+		(pin "4"
+			(uuid "e9999f05-f624-4580-98ea-6c95e68956d1")
+		)
+		(pin "6"
+			(uuid "dd48aad4-c42c-430d-9ebb-fe4935a8ce0c")
 		)
 		(instances
 			(project ""
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
-					(reference "#PWR099")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4180,72 +3631,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a77e8610-f4d5-4fb7-a01a-3ee52ffa7c48")
-		(property "Reference" "#PWR097"
-			(at 40.64 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32e0bdf5-bc26-41cb-9f81-9bf87ac2f88b")
-		)
-		(instances
-			(project ""
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -4666,72 +4051,6 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 162.56 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f23f5679-4e25-47af-9cf5-961b9364a1e4")
-		(property "Reference" "#PWR049"
-			(at 162.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 162.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75128c83-db16-4215-a933-20ad120d4e68")
-		)
-		(instances
-			(project ""
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/576572c3-1ae4-4f9d-a2fe-756d060003c8"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
