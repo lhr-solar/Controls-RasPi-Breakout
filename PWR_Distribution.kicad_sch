@@ -1518,6 +1518,174 @@
 				)
 			)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
@@ -1990,6 +2158,108 @@
 				)
 			)
 		)
+		(symbol "utsvt-connectors:CarPowerConnector"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CarPowerConnector"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connection to the car's low power bus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CarPowerConnector_0_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CarPowerConnector_1_1"
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 142.24 34.29)
@@ -2263,7 +2533,7 @@
 	)
 	(polyline
 		(pts
-			(xy 24.13 90.17) (xy 24.13 153.67)
+			(xy 20.32 90.17) (xy 20.32 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2551,9 +2821,19 @@
 		)
 		(uuid "35b143c7-dfc6-4229-8fe2-8c131999e631")
 	)
+	(wire
+		(pts
+			(xy 40.64 43.18) (xy 44.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390e7b3e-7fed-46ae-86d0-6e421e9d0c8e")
+	)
 	(polyline
 		(pts
-			(xy 256.54 153.67) (xy 24.13 153.67)
+			(xy 256.54 153.67) (xy 20.32 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 39.37) (xy 242.57 44.45)
+			(xy 241.3 39.37) (xy 241.3 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2873,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 53.34) (xy 242.57 52.07)
+			(xy 241.3 53.34) (xy 241.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2980,6 +3260,16 @@
 			(type default)
 		)
 		(uuid "a3ab1d37-33c4-4756-bd61-d6f356864711")
+	)
+	(wire
+		(pts
+			(xy 44.45 43.18) (xy 44.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e58449-178e-4404-838a-ce66826c5e90")
 	)
 	(wire
 		(pts
@@ -3273,16 +3563,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 66.04) (xy 242.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df887fb3-8077-407d-b527-48b1e4f6e0f5")
-	)
-	(wire
-		(pts
 			(xy 218.44 39.37) (xy 218.44 44.45)
 		)
 		(stroke
@@ -3383,7 +3663,7 @@
 	)
 	(polyline
 		(pts
-			(xy 24.13 90.17) (xy 256.54 90.17)
+			(xy 20.32 90.17) (xy 256.54 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3393,7 +3673,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 66.04) (xy 242.57 60.96)
+			(xy 241.3 64.77) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3453,16 +3733,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 39.37) (xy 243.84 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b8b4fa-9404-4f49-ad98-9efebfb9e97f")
-	)
-	(wire
-		(pts
 			(xy 67.31 46.99) (xy 67.31 48.26)
 		)
 		(stroke
@@ -3502,7 +3772,7 @@
 		(uuid "fe78976e-055b-4e16-a6f9-e5808a862bdb")
 	)
 	(rectangle
-		(start 26.035 25.4)
+		(start 20.32 25.4)
 		(end 186.69 83.82)
 		(stroke
 			(width 0)
@@ -3679,7 +3949,7 @@
 		(uuid "f494d7f7-1175-4c49-8dc1-ef4e3a025c9e")
 	)
 	(label "Fault"
-		(at 237.49 66.04 0)
+		(at 241.3 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3775,19 +4045,7 @@
 	)
 	(hierarchical_label "12V_EXTN"
 		(shape input)
-		(at 40.64 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e931a916-9dff-4226-853d-d3a0376d5d20")
-	)
-	(hierarchical_label "12V_EXTN"
-		(shape input)
-		(at 243.84 39.37 0)
+		(at 241.3 39.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4221,7 +4479,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 261.62 58.42 0)
+		(at 255.27 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4230,7 +4488,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa00568-aa84-42ec-8cf5-91220c0768bb")
 		(property "Reference" "#PWR0116"
-			(at 261.62 64.77 0)
+			(at 255.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 63.5 0)
+			(at 255.27 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +6042,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 242.57 57.15 90)
+		(at 241.3 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5792,7 +6050,7 @@
 		(dnp no)
 		(uuid "59a458f5-b031-484e-ac86-abb95a1fc22f")
 		(property "Reference" "D11"
-			(at 245.5672 56.1848 90)
+			(at 244.2972 56.1848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +6059,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 245.5672 58.4962 90)
+			(at 244.2972 58.4962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +6068,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 242.57 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +6077,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +6086,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 242.57 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +6095,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 242.57 57.15 90)
+			(at 241.3 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +6104,7 @@
 			)
 		)
 		(property "P/N" "APTD2012LCGCK"
-			(at 242.57 57.15 90)
+			(at 241.3 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +6113,7 @@
 			)
 		)
 		(property "Vf" "1.9V"
-			(at 242.57 57.15 90)
+			(at 241.3 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +6122,7 @@
 			)
 		)
 		(property "If" "2mA"
-			(at 242.57 57.15 90)
+			(at 241.3 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +6131,7 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 242.57 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +6140,7 @@
 			)
 		)
 		(property "Inventory" "Y"
-			(at 242.57 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +6149,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
-			(at 242.57 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,6 +6290,72 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 44.45 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61cf79ae-65f4-4c4a-b2dc-a4e0afc84c6b")
+		(property "Reference" "#PWR018"
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 44.323 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a9881f4-e219-4eac-8521-44655c31e7c3")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6873,6 +7197,74 @@
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-connectors:CarPowerConnector")
+		(at 33.02 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85bb15b3-4ae7-4146-9897-5fbe0cbc2791")
+		(property "Reference" "J1"
+			(at 32.385 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CarPowerConnector"
+			(at 32.385 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connection to the car's low power bus"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25956682-e4b8-48e3-ac1d-57897a1eddad")
+		)
+		(pin "1"
+			(uuid "973f7e9f-0594-4041-b2f2-d6eed96740b8")
+		)
+		(instances
+			(project "PiBoard"
+				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a/0c1fd794-8ba7-4f58-ad3e-1ee234c84a43"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7844,7 +8236,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 261.62 58.42 0)
+		(at 255.27 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7852,7 +8244,7 @@
 		(dnp no)
 		(uuid "b74477db-0469-4e10-8f97-a8111b7e8376")
 		(property "Reference" "TP10"
-			(at 263.0932 55.4228 0)
+			(at 256.7432 59.2328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +8253,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 263.0932 57.7342 0)
+			(at 256.7432 61.5442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +8262,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 266.7 58.42 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,7 +8271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 58.42 0)
+			(at 260.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +8280,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,7 +8289,7 @@
 			)
 		)
 		(property "Field4" "nf"
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +8298,7 @@
 			)
 		)
 		(property "Field5" "nf"
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +8307,7 @@
 			)
 		)
 		(property "Field6" "nf"
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +8316,7 @@
 			)
 		)
 		(property "Field7" "nf"
-			(at 261.62 58.42 0)
+			(at 255.27 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,7 +8777,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 48.26 0)
+		(at 241.3 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8393,7 +8785,7 @@
 		(dnp no)
 		(uuid "d04d3638-f366-40da-82c5-d9811afbaf40")
 		(property "Reference" "R46"
-			(at 244.348 47.0916 0)
+			(at 243.078 47.0916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8794,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 244.348 49.403 0)
+			(at 243.078 49.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8803,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 240.792 48.26 90)
+			(at 239.522 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 48.26 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8821,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 48.26 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8830,7 @@
 			)
 		)
 		(property "P/N" "CRCW080522K1FKEA"
-			(at 242.57 48.26 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8839,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0805-22.1K-E3"
-			(at 242.57 48.26 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8848,7 @@
 			)
 		)
 		(property "Inventory" "Y"
-			(at 242.57 48.26 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8857,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080522K1FKEA?qs=fIsz7OpyEY%2F1GKOToH8JbQ%3D%3D"
-			(at 242.57 48.26 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

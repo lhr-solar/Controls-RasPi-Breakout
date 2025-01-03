@@ -5604,7 +5604,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 114.3 87.63)
+			(xy 100.33 87.63) (xy 119.38 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6134,7 +6134,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 148.59) (xy 116.84 148.59)
+			(xy 100.33 148.59) (xy 119.38 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6307,6 +6307,17 @@
 		)
 		(uuid "828659c6-c188-4aeb-8310-6784be0fa9f6")
 	)
+	(label "HDMI0_SDA"
+		(at 119.38 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8605ee7a-c894-43bf-9eb0-a2c157f09b59")
+	)
 	(label "HDMI0_D0_P"
 		(at 22.86 125.73 0)
 		(fields_autoplaced yes)
@@ -6385,7 +6396,7 @@
 		(uuid "caf44fc6-1734-4d43-8788-a2d6b2adb2b4")
 	)
 	(label "HDMI0_CEC"
-		(at 114.3 87.63 180)
+		(at 119.38 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6416,17 +6427,6 @@
 			(justify left bottom)
 		)
 		(uuid "f113dbe5-9b25-4817-928d-c1830701f61b")
-	)
-	(label "HDMI0_SDA"
-		(at 104.14 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb990252-a6a6-4089-835c-42601b42a447")
 	)
 	(hierarchical_label "USB2_N"
 		(shape bidirectional)
