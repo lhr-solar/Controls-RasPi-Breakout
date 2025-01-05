@@ -2370,6 +2370,12 @@
 		(uuid "71c6680c-5ad6-4c41-ab5a-909e84ccb89e")
 	)
 	(junction
+		(at 44.45 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "753d1871-1523-4f8a-a8c6-a2c397915c24")
+	)
+	(junction
 		(at 60.96 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2603,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 38.1) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2e596c-ec84-4d5d-8f39-fa0942e07cf6")
+	)
+	(wire
+		(pts
 			(xy 134.62 34.29) (xy 142.24 34.29)
 		)
 		(stroke
@@ -2763,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 53.34) (xy 218.44 52.07)
+			(xy 209.55 53.34) (xy 209.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2953,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 48.26 38.1)
+			(xy 40.64 38.1) (xy 44.45 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3043,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 39.37) (xy 241.3 44.45)
+			(xy 251.46 30.48) (xy 251.46 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3153,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 53.34) (xy 241.3 52.07)
+			(xy 251.46 53.34) (xy 251.46 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3170,6 +3186,16 @@
 			(type default)
 		)
 		(uuid "8f71cd5c-ec01-43c9-8baa-022046e6b61f")
+	)
+	(wire
+		(pts
+			(xy 53.34 31.75) (xy 44.45 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9245f9-83d4-4ea9-93a7-d2d469378645")
 	)
 	(wire
 		(pts
@@ -3433,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 62.23) (xy 218.44 60.96)
+			(xy 209.55 62.23) (xy 209.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3513,6 +3539,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 31.75) (xy 44.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a17867-a44b-4877-a290-f9c0e8168490")
+	)
+	(wire
+		(pts
 			(xy 133.35 109.22) (xy 146.05 109.22)
 		)
 		(stroke
@@ -3563,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 39.37) (xy 218.44 44.45)
+			(xy 209.55 39.37) (xy 209.55 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3673,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 64.77) (xy 241.3 60.96)
+			(xy 251.46 64.77) (xy 251.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3783,6 +3819,26 @@
 		)
 		(uuid 9f22f167-397c-4cdf-b8da-ed4bdb0333aa)
 	)
+	(text "5V PWR"
+		(exclude_from_sim no)
+		(at 236.474 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f0c936f-1db6-443d-85d3-902673ce57c0")
+	)
+	(text "12V PWR"
+		(exclude_from_sim no)
+		(at 216.916 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "406260ca-87e1-4bea-a802-6592969dc632")
+	)
 	(text "+5v @ 3A PSU ( 7.5v-28v Input )"
 		(exclude_from_sim no)
 		(at 152.4 93.98 0)
@@ -3793,6 +3849,16 @@
 			(justify right bottom)
 		)
 		(uuid "84a4577d-ffbb-4a51-b4e3-924767fd9de0")
+	)
+	(text "PWR FAULT"
+		(exclude_from_sim no)
+		(at 259.334 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d42eed4-0509-4283-a211-d90820ee4363")
 	)
 	(text "RTN!=GND \nConecting GND to RTN turns off RPP!"
 		(exclude_from_sim no)
@@ -3829,7 +3895,7 @@
 	)
 	(text "Current lim(A) = 12/Rilim(k)\n1.2A = 12/10k ohms"
 		(exclude_from_sim no)
-		(at 156.21 31.75 0)
+		(at 155.702 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3870,6 +3936,17 @@
 			(justify right bottom)
 		)
 		(uuid "3249f331-ae2f-433d-a37d-1f105a072b21")
+	)
+	(label "12V_Extn"
+		(at 53.34 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35fad37d-1a37-43e4-babb-65c46bc54d45")
 	)
 	(label "UVLO"
 		(at 74.93 48.26 180)
@@ -3915,6 +3992,17 @@
 		)
 		(uuid "bed2e0c3-62d4-410e-8925-185c13f5f5e1")
 	)
+	(label "12V_Extn"
+		(at 251.46 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1581825-47ad-4d79-b584-47cfd8ac893e")
+	)
 	(label "RTN"
 		(at 85.09 55.88 0)
 		(fields_autoplaced yes)
@@ -3949,7 +4037,7 @@
 		(uuid "f494d7f7-1175-4c49-8dc1-ef4e3a025c9e")
 	)
 	(label "Fault"
-		(at 241.3 64.77 0)
+		(at 251.46 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3961,7 +4049,7 @@
 	)
 	(hierarchical_label "+12V_PWR"
 		(shape input)
-		(at 218.44 39.37 90)
+		(at 209.55 39.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4042,18 +4130,6 @@
 			(justify left)
 		)
 		(uuid "9cca4b62-8651-4b92-98ef-46fc1f54dbff")
-	)
-	(hierarchical_label "12V_EXTN"
-		(shape input)
-		(at 241.3 39.37 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ffac19ce-8f48-4f23-94c3-14cfae10cc2b")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4479,7 +4555,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 255.27 62.23 0)
+		(at 273.05 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4488,7 +4564,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa00568-aa84-42ec-8cf5-91220c0768bb")
 		(property "Reference" "#PWR0116"
-			(at 255.27 68.58 0)
+			(at 273.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 67.31 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4688,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 218.44 57.15 90)
+		(at 209.55 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4620,7 +4696,7 @@
 		(dnp no)
 		(uuid "1842d043-5f5c-465f-b19c-41f0653e5305")
 		(property "Reference" "D9"
-			(at 221.4372 56.1848 90)
+			(at 212.5472 56.1848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4705,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 221.4372 58.4962 90)
+			(at 212.5472 58.4962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4714,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 218.44 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4732,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 218.44 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4741,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 218.44 57.15 90)
+			(at 209.55 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4750,7 @@
 			)
 		)
 		(property "P/N" "APTD2012LCGCK"
-			(at 218.44 57.15 90)
+			(at 209.55 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4759,7 @@
 			)
 		)
 		(property "Vf" "1.9V"
-			(at 218.44 57.15 90)
+			(at 209.55 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4768,7 @@
 			)
 		)
 		(property "If" "2mA"
-			(at 218.44 57.15 90)
+			(at 209.55 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4777,7 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 218.44 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4786,7 @@
 			)
 		)
 		(property "Inventory" "Y"
-			(at 218.44 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4795,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
-			(at 218.44 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5181,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 218.44 62.23 0)
+		(at 209.55 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5114,7 +5190,7 @@
 		(fields_autoplaced yes)
 		(uuid "39f6b239-4ec0-4799-8137-b1a3aeefac16")
 		(property "Reference" "#PWR0111"
-			(at 218.44 68.58 0)
+			(at 209.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 67.31 0)
+			(at 209.55 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 62.23 0)
+			(at 209.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 62.23 0)
+			(at 209.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 62.23 0)
+			(at 209.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5458,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 48.26 0)
+		(at 209.55 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5390,7 +5466,7 @@
 		(dnp no)
 		(uuid "41c0a2af-6acf-4fe3-92fd-ab03a35ef5bd")
 		(property "Reference" "R44"
-			(at 220.218 47.0916 0)
+			(at 211.328 47.0916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5475,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 220.218 49.403 0)
+			(at 211.328 49.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5484,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 216.662 48.26 90)
+			(at 207.772 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 48.26 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5502,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 48.26 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5511,7 @@
 			)
 		)
 		(property "P/N" "CRCW080522K1FKEA"
-			(at 218.44 48.26 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5520,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0805-22.1K-E3"
-			(at 218.44 48.26 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5529,7 @@
 			)
 		)
 		(property "Inventory" "Y"
-			(at 218.44 48.26 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5538,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080522K1FKEA?qs=fIsz7OpyEY%2F1GKOToH8JbQ%3D%3D"
-			(at 218.44 48.26 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6118,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 241.3 57.15 90)
+		(at 251.46 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6050,7 +6126,7 @@
 		(dnp no)
 		(uuid "59a458f5-b031-484e-ac86-abb95a1fc22f")
 		(property "Reference" "D11"
-			(at 244.2972 56.1848 90)
+			(at 254.4572 56.1848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6135,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 244.2972 58.4962 90)
+			(at 254.4572 58.4962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6144,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 241.3 57.15 0)
+			(at 251.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 57.15 0)
+			(at 251.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +6162,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 241.3 57.15 0)
+			(at 251.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6171,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 241.3 57.15 90)
+			(at 251.46 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6180,7 @@
 			)
 		)
 		(property "P/N" "APTD2012LCGCK"
-			(at 241.3 57.15 90)
+			(at 251.46 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6189,7 @@
 			)
 		)
 		(property "Vf" "1.9V"
-			(at 241.3 57.15 90)
+			(at 251.46 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6198,7 @@
 			)
 		)
 		(property "If" "2mA"
-			(at 241.3 57.15 90)
+			(at 251.46 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6207,7 @@
 			)
 		)
 		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 241.3 57.15 0)
+			(at 251.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6216,7 @@
 			)
 		)
 		(property "Inventory" "Y"
-			(at 241.3 57.15 0)
+			(at 251.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6225,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
-			(at 241.3 57.15 0)
+			(at 251.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8312,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 255.27 62.23 0)
+		(at 273.05 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8244,7 +8320,7 @@
 		(dnp no)
 		(uuid "b74477db-0469-4e10-8f97-a8111b7e8376")
 		(property "Reference" "TP10"
-			(at 256.7432 59.2328 0)
+			(at 274.5232 59.2328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +8329,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 256.7432 61.5442 0)
+			(at 274.5232 61.5442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +8338,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 260.35 62.23 0)
+			(at 278.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 62.23 0)
+			(at 278.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8356,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8365,7 @@
 			)
 		)
 		(property "Field4" "nf"
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8374,7 @@
 			)
 		)
 		(property "Field5" "nf"
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8383,7 @@
 			)
 		)
 		(property "Field6" "nf"
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8392,7 @@
 			)
 		)
 		(property "Field7" "nf"
-			(at 255.27 62.23 0)
+			(at 273.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,7 +8853,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 48.26 0)
+		(at 251.46 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8785,7 +8861,7 @@
 		(dnp no)
 		(uuid "d04d3638-f366-40da-82c5-d9811afbaf40")
 		(property "Reference" "R46"
-			(at 243.078 47.0916 0)
+			(at 253.238 47.0916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8870,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 243.078 49.403 0)
+			(at 253.238 49.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8879,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 239.522 48.26 90)
+			(at 249.682 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +8906,7 @@
 			)
 		)
 		(property "P/N" "CRCW080522K1FKEA"
-			(at 241.3 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,7 +8915,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0805-22.1K-E3"
-			(at 241.3 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,7 +8924,7 @@
 			)
 		)
 		(property "Inventory" "Y"
-			(at 241.3 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,7 +8933,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080522K1FKEA?qs=fIsz7OpyEY%2F1GKOToH8JbQ%3D%3D"
-			(at 241.3 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

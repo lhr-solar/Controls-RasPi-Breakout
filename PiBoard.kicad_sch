@@ -4,146 +4,7 @@
 	(generator_version "8.0")
 	(uuid "e4d65698-b8ec-4bf6-9f2b-a5010377155a")
 	(paper "A4")
-	(lib_symbols
-		(symbol "utsvt-connectors:CANConnector"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CANConnector"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connection to the car's CAN bus."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CANConnector_0_1"
-				(rectangle
-					(start 3.81 5.08)
-					(end -3.81 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CANConnector_1_1"
-				(pin power_in line
-					(at 8.89 3.81 180)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 1.27 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -1.27 180)
-					(length 5.08)
-					(name "CAN_H"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -3.81 180)
-					(length 5.08)
-					(name "CAN_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
+	(lib_symbols)
 	(junction
 		(at 125.73 102.87)
 		(diameter 0)
@@ -163,28 +24,20 @@
 		(uuid "723460c7-2692-4802-828c-4d0a49eaad09")
 	)
 	(junction
-		(at 128.27 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1b3a0a8-d668-4260-8183-e85dd70b36f7")
-	)
-	(junction
 		(at 116.84 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1ea303f-eddf-4542-9d3b-536dca1ac056")
 	)
-	(no_connect
-		(at 222.25 100.33)
-		(uuid "0a5ffcac-e0bb-49b9-a9fc-d70c813bc62e")
+	(junction
+		(at 128.27 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7b2f036-d1c4-4c1a-88e3-c7967172dba9")
 	)
 	(no_connect
 		(at 134.62 115.57)
 		(uuid "192459dd-ddc1-449f-92d6-a7daccf8b1d0")
-	)
-	(no_connect
-		(at 222.25 97.79)
-		(uuid "4a0d4312-c749-4951-abfd-2eabcb960025")
 	)
 	(no_connect
 		(at 140.97 88.9)
@@ -196,7 +49,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 151.13) (xy 120.65 83.82)
+			(xy 120.65 144.78) (xy 120.65 83.82)
 		)
 		(stroke
 			(width 0)
@@ -216,7 +69,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 158.75) (xy 125.73 111.76)
+			(xy 125.73 152.4) (xy 125.73 111.76)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +79,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 134.62) (xy 86.36 116.84)
+			(xy 86.36 128.27) (xy 86.36 116.84)
 		)
 		(stroke
 			(width 0)
@@ -276,7 +129,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 158.75) (xy 125.73 158.75)
+			(xy 115.57 152.4) (xy 125.73 152.4)
 		)
 		(stroke
 			(width 0)
@@ -316,7 +169,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 137.16) (xy 83.82 114.3)
+			(xy 83.82 130.81) (xy 83.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -386,7 +239,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 153.67) (xy 123.19 86.36)
+			(xy 123.19 147.32) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -396,7 +249,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 134.62) (xy 86.36 134.62)
+			(xy 91.44 128.27) (xy 86.36 128.27)
 		)
 		(stroke
 			(width 0)
@@ -406,7 +259,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 128.27 135.89)
+			(xy 128.27 105.41) (xy 128.27 129.54)
 		)
 		(stroke
 			(width 0)
@@ -516,7 +369,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 135.89) (xy 128.27 135.89)
+			(xy 177.8 129.54) (xy 128.27 129.54)
 		)
 		(stroke
 			(width 0)
@@ -526,7 +379,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 153.67) (xy 123.19 153.67)
+			(xy 115.57 147.32) (xy 123.19 147.32)
 		)
 		(stroke
 			(width 0)
@@ -556,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 135.89) (xy 128.27 135.89)
+			(xy 115.57 129.54) (xy 128.27 129.54)
 		)
 		(stroke
 			(width 0)
@@ -566,17 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 222.25 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ad8633-2c38-4890-9a5a-99a6965a5ba0")
-	)
-	(wire
-		(pts
-			(xy 115.57 151.13) (xy 120.65 151.13)
+			(xy 115.57 144.78) (xy 120.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -596,17 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 92.71) (xy 222.25 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa092bd1-45de-4766-b2c5-29ca9f83bc2e")
-	)
-	(wire
-		(pts
-			(xy 91.44 137.16) (xy 83.82 137.16)
+			(xy 91.44 130.81) (xy 83.82 130.81)
 		)
 		(stroke
 			(width 0)
@@ -646,82 +479,6 @@
 			(justify left bottom)
 		)
 		(uuid "cfcb8281-6387-4e60-b4b4-050a992ba265")
-	)
-	(symbol
-		(lib_id "utsvt-connectors:CANConnector")
-		(at 231.14 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39cfade2-e33a-43f1-b96f-0055b2fc5778")
-		(property "Reference" "J2"
-			(at 236.22 95.2499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CANConnector"
-			(at 236.22 97.7899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-			(at 231.14 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connection to the car's CAN bus."
-			(at 231.14 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b415c56b-595c-449c-8e8c-74e1379c02a3")
-		)
-		(pin "3"
-			(uuid "21eabbbf-5fb9-4233-a735-d13fe64091d2")
-		)
-		(pin "1"
-			(uuid "a5bd92d5-8383-4250-93e2-8ced6ae11498")
-		)
-		(pin "4"
-			(uuid "654f02e1-885e-4c1c-ae51-733f94a4c136")
-		)
-		(instances
-			(project ""
-				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(sheet
 		(at 82.55 77.47)
@@ -979,16 +736,6 @@
 			)
 			(uuid "0fbc2b5c-f023-4c7c-97a5-473c906afc5c")
 		)
-		(pin "+3.3V_PWR" output
-			(at 134.62 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9dba90f6-5581-4bfc-b01f-83939102a13f")
-		)
 		(pin "GLOBAL_EN" input
 			(at 134.62 111.76 180)
 			(effects
@@ -1009,6 +756,26 @@
 			)
 			(uuid "3cd1cd25-f8d3-4a8b-9d1d-557ebb94c9e7")
 		)
+		(pin "+3.3V_PWR_2" output
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ae4be45-d85a-4b1b-b95a-b202642aa213")
+		)
+		(pin "+3.3V_PWR_1" output
+			(at 134.62 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8d4d8a6-ac62-49d8-bdb9-638f9f6d996d")
+		)
 		(instances
 			(project "PiBoard"
 				(path "/e4d65698-b8ec-4bf6-9f2b-a5010377155a"
@@ -1018,7 +785,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 129.54)
+		(at 91.44 123.19)
 		(size 24.13 31.75)
 		(stroke
 			(width 0.1524)
@@ -1030,7 +797,7 @@
 		)
 		(uuid "576572c3-1ae4-4f9d-a2fe-756d060003c8")
 		(property "Sheetname" "RTC , Wakeup, FAN"
-			(at 91.44 128.9045 0)
+			(at 91.44 122.5545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +806,7 @@
 			)
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
-			(at 92.456 162.306 0)
+			(at 92.456 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +815,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 115.57 151.13 0)
+			(at 115.57 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +825,7 @@
 			(uuid "7b545eb3-2acb-42e2-b3fb-8f82b23dd3a7")
 		)
 		(pin "SDA" input
-			(at 115.57 153.67 0)
+			(at 115.57 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +835,7 @@
 			(uuid "2d356f1e-ae93-4cdd-b618-a2944e1b68f0")
 		)
 		(pin "GLOBAL_EN" input
-			(at 115.57 158.75 0)
+			(at 115.57 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +845,7 @@
 			(uuid "6d2fa6ed-eb96-4836-b744-540b22e67008")
 		)
 		(pin "+3.3V_PWR" input
-			(at 115.57 135.89 0)
+			(at 115.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +855,7 @@
 			(uuid "956b9209-4776-49e2-8527-cb75116c7a1a")
 		)
 		(pin "+5V_PWR" input
-			(at 91.44 134.62 180)
+			(at 91.44 128.27 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +865,7 @@
 			(uuid "74467c48-7888-4aeb-8706-bb28bb6eaca7")
 		)
 		(pin "+12V_PWR" input
-			(at 91.44 137.16 180)
+			(at 91.44 130.81 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +972,7 @@
 	)
 	(sheet
 		(at 177.8 85.09)
-		(size 30.48 54.61)
+		(size 24.13 46.99)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1225,7 +992,7 @@
 			)
 		)
 		(property "Sheetfile" "CarCAN.kicad_sch"
-			(at 177.8 140.2846 0)
+			(at 177.8 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1001,7 @@
 			)
 		)
 		(pin "+3.3V_PWR" input
-			(at 177.8 135.89 180)
+			(at 177.8 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,26 +1049,6 @@
 				(justify left)
 			)
 			(uuid "67a724e3-df77-4cd2-9d61-4991e70b8cf5")
-		)
-		(pin "CarCAN_L" input
-			(at 208.28 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f107f0b7-db4c-4805-a729-aa8e4fd06005")
-		)
-		(pin "CarCAN_H" input
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d9745ec6-66b5-4c6a-a30b-007901f1b863")
 		)
 		(pin "CAN_INTR" output
 			(at 177.8 110.49 180)
