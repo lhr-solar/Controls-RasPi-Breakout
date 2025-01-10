@@ -2757,7 +2757,7 @@
 		)
 		(uuid 0abc787b-887c-42c9-9be6-b5c2ec6e716f)
 	)
-	(text "Current Limit switch"
+	(text "Current Limit Switches"
 		(exclude_from_sim no)
 		(at 87.884 25.908 0)
 		(effects
@@ -2770,7 +2770,7 @@
 	)
 	(text "Current is limited to max 500mA per port."
 		(exclude_from_sim no)
-		(at 78.74 28.448 0)
+		(at 76.708 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)

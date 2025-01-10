@@ -583,15 +583,15 @@
     ],
     [
       "353ee88d-a044-4c9d-80a8-948975426026",
-      "CM4_GPIO"
+      "CM4 GPIO"
     ],
     [
       "576572c3-1ae4-4f9d-a2fe-756d060003c8",
-      "RTC , Wakeup, FAN"
+      "RTC and Fan"
     ],
     [
       "ba481c31-e70b-40cd-84a6-4c7235d9d730",
-      "USB2-HUB"
+      "USB2.0 HS Hub"
     ],
     [
       "bb44eb34-b37d-4f19-ab49-17b4958492c8",
@@ -599,7 +599,7 @@
     ],
     [
       "0c1fd794-8ba7-4f58-ad3e-1ee234c84a43",
-      "PWR_Distribution"
+      "Power Distribution"
     ],
     [
       "9db2d452-e488-4d0d-9fba-1e3727141806",
